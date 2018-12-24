@@ -5,8 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - npm install -g @angular/cli
-      - ng build
+      - npm install
   post_build:
     commands:
       - echo Build completed on `date`
