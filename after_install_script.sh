@@ -1,5 +1,5 @@
 #!bin/bash
- cd /usr/share/nginx/html/nodejs
+ cd /usr/port4200
   curl --silent --location https://rpm.nodesource.com/setup_10.x | bash -
   yum -y install nodejs > /dev/null 2> /dev/null < /dev/null &
   npm install @angular/cli > /dev/null 2> /dev/null < /dev/null &
